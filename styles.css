@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(66, 66, 66);
+    height: 100vh;
+    background-color: gray;
+}
+
+#header {
+    height: 20vh;
+    width: 100%;
+}
+
+#footer {
+    height: 20vh;
+    width: 100%;
+}
+
+#screen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    
+}
+
+#loginarea {
+    background-color: rgb(221, 221, 221);
+    width: 40vw;
+    height: 70vh;
+    border:rgb(66, 66, 66);
+    border-color: red;
+    border-style: solid 10px;
+}
