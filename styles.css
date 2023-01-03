@@ -4,32 +4,45 @@ body {
     color: rgb(66, 66, 66);
     height: 100vh;
     background-color: gray;
+    margin: 0;
+
 }
+
 
 #header {
-    height: 20vh;
+    background-color: rgb(59, 59, 59);
+    height: 10vh;
     width: 100%;
-}
-
-#footer {
-    height: 20vh;
-    width: 100%;
-}
-
-#screen {
+    margin-top: 50%;
+    margin-bottom: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 60vh;
-    
 }
 
-#loginarea {
-    background-color: rgb(221, 221, 221);
-    width: 40vw;
-    height: 70vh;
-    border:rgb(66, 66, 66);
-    border-color: red;
-    border-style: solid 10px;
+#footer {
+    background-color: red;
+    height: 5vh;
+    width: 100%;
+}
+
+#content {
+    background-image: url("content-bg.svg");
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-color: #000000; 
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+#login {
+    width: 400px;
+    height: 100%;
+    background-color: rgb(37, 37, 37);
+    text-align: center;
 }
