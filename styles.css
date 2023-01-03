@@ -33,7 +33,7 @@ body {
 }
 
 #footer {
-    background-color: red;
+    background-color: rgb(62, 62, 62);
     height: 5vh;
     width: 100%;
 }
@@ -61,4 +61,16 @@ body {
 }
 
 
+
+input {
+    font-size: 30px;
+    border: 0;
+    background: none;
+    border-bottom: solid 1px;
+    border-top: none;
+} 
+
+input:placeholder-shown {
+    border-bottom: solid  red;
+}
 
