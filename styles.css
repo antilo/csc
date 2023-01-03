@@ -3,22 +3,32 @@ body {
     font-size: 15px;
     color: rgb(66, 66, 66);
     height: 100vh;
-    background-color: gray;
     margin: 0;
-
 }
 
 
 #header {
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(62, 62, 62);
     height: 10vh;
     width: 100%;
-    margin-top: 50%;
-    margin-bottom: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 1vh;
+}
+
+#leftheader {
+    color: rgb(188, 188, 188);
+}
+
+#rightheader {
+    background-image: url("antilologo_invers.svg");
+    background-repeat: no-repeat;
+    background-size: 15vh;
+    width: 200px;
 }
 
 #footer {
@@ -43,6 +53,11 @@ body {
 #login {
     width: 400px;
     height: 100%;
-    background-color: rgb(37, 37, 37);
+    background-color: yellow;
+    display: table-cell;
+    vertical-align: middle;
     text-align: center;
 }
+
+
+

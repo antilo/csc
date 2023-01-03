@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 544.02 212.52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3c3c3b;
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #878787;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #e30613;
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        font-family: Arial-BoldMT, Arial;
+        font-size: 171.36px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text class="cls-4" transform="translate(.5 147.51) scale(.88 1)"><tspan class="cls-2" x="0" y="0">)</tspan><tspan class="cls-3" x="57.06" y="0">)</tspan><tspan class="cls-1" x="114.13" y="0"> </tspan><tspan class="cls-2" x="161.73" y="0">antilo</tspan></text>
+</svg>
